@@ -10,15 +10,15 @@ body {
     /* background-color: yellowgreen; */
 }
 
-
 #banner {
-    background-color: rgb(255, 192, 23);
+    background-color: #FFC017;
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 192, 23);
+    background-color: #FFC017;
+    border-bottom: 1px solid #242424
 }
 
 .menu_content {
@@ -26,12 +26,20 @@ body {
     flex-direction: row;
     width: 1192px;
     max-width: 1192px;
+    height: 75px;
     margin : 0 64px;
-
+    
 }
 
 .logo {
     font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: bold;
 }
 
 .menu_middle {
@@ -48,4 +56,10 @@ body {
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
+    margin-right: 25px;
+}
+.menu_item a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    
 }
