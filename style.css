@@ -6,8 +6,6 @@ body {
     color: rgba(0,0,0,0.8);
     position: relative;
     min-height: 100vh;
-
-    /* background-color: yellowgreen; */
 }
 
 #banner {
@@ -63,9 +61,7 @@ body {
     color: rgb(36, 36, 36);
     font-family: Arial, Helvetica, sans-serif;
 }
-.menu_last {
 
-}
 .menu_last a {
     text-decoration: none;
     color: #fff;
@@ -77,4 +73,47 @@ body {
     border: 1px solid black;
     padding: 8px 16px;
     border-radius: 99em;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #FFC017;
+    border-bottom: 1px solid #242424
+}
+
+.banner_content {
+    display: flex;
+    width: 1192px;
+}
+
+.banner_left {
+    width: 600px;
+    padding: 94px 0;
+}
+.banner_title {
+    font-size: 106px;
+    margin-bottom: 35px;
+}
+.banner_message {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.banner_button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.banner_button a span {
+    display: inline-block;
+    text-align: center;
+    background-color: black; 
+    border: 1px solid black;
+    padding: 8px 20px;
+    border-radius: 99em;
+    width: 213px;
 }
