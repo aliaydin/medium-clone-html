@@ -18,9 +18,9 @@
                     <div class="logo"><a href="/">Medium Clone</a></div>
                     <div class="menu_middle"></div>
                     <div class="menu_right">
-                        <span class="menu_item"><a href="/">Main</a></span>
-                        <span class="menu_item"><a href="/about.html">About</a></span>
-                        <span class="menu_item"><a href="/blog.html">Blog</a></span>
+                        <span class="menu_item"><a href="/">Our story</a></span>
+                        <span class="menu_item"><a href="/about.html">Membership</a></span>
+                        <span class="menu_item"><a href="/blog.html">Write</a></span>
                         <span class="menu_item"><a href="/signin.html">Sign in</a></span>
                         <div class="menu_last"><a href=""><span>Get started</span></a></div>
                     </div>
@@ -31,11 +31,17 @@
             <div class="banner">
                 
                 <div class="banner_content">
+
+                    
                     
                     <div class="banner_left">
                         <div class="banner_title">Stay curious.</div>
                         <div class="banner_message">Discover stories, thinking, and expertise from writers on any topic.</div>
                         <div class="banner_button"><a href=""><span>Start reading</span></a></div>
+                    </div>
+
+                    <div class="banner_right" id="banner_right">
+                        
                     </div>
 
                 </div>
@@ -61,3 +67,10 @@
     
 </body>
 </html>
+
+<script>
+    let a = document.getElementById("banner_right")
+    for (let i=0; i < 493; i++ ) {
+        a.innerHTML += Math.round(Math.random()) ? (Math.round(Math.random()) ? '<span>M</span>':'<span style="color:rgba(255,255,255,0)">M</span>') : '<span style="color:rgba(255,255,255,0)">M</span>' ;
+    }
+</script>
