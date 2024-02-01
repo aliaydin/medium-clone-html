@@ -8,6 +8,15 @@ body {
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fx {
+    display: flex;
+}
+
 #banner {
     background-color: #FFC017;
 }
@@ -127,4 +136,122 @@ body {
     font-size: 24px;
     word-wrap: break-word;
     padding-top: 20px;
+}
+
+.trends_container {
+    display: flex;
+    justify-content: center;
+}
+
+.trends_content {
+    display: block;
+    width: 1192px;
+    max-width: 1192px;
+    margin : 0 64px;
+}
+
+.trends_content > div {
+    margin: 40px 0 16px 0;
+}
+.trends_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.trends_header h2 {
+    font-size: 16px;
+    font-weight: 550;
+    color: #242424;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+}
+
+.trends {
+    
+}
+.trends > div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 -16px;
+    width: calc(100% + 32px);
+}
+
+.trend {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    
+    flex-grow: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trend > div {
+    margin-bottom: 24px;
+    align-items: flex-start;
+    padding: 0 16px;
+}
+.trend_left {
+    position: relative;
+    margin-right: 16px;
+    color: #F2F2F2;;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    width: 40px;
+    top: -10px;
+}
+.trend_right {
+    
+}
+.trend_right > div {
+    flex-direction: column;
+}
+.trend_author {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.trend_author > div {
+    flex-direction: row;
+    align-items: center;
+}
+.trend_author_logo {
+    padding: 0;
+    max-height: 20px;
+    max-width: 20px;
+    height: 20px;
+    width: 20px;
+}
+.trend_author_logo > img {
+    border-radius: 50%;
+}
+.trend_author_name {
+    margin-left: 8px;
+}
+
+.trend_title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    max-height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    letter-spacing: 0;
+}
+.trend_date_time {
+    font-size: 13px;
+    color: #6B6B6B;
+    line-height: 20px;
+}
+.trend_date_time > div {
+    flex-direction: row;
+    align-items: center;
+}
+.trend_date_seperator {
+    padding: 0 6px;
+}
+.trend_read_lock {
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 4px;
 }
