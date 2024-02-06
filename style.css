@@ -144,7 +144,6 @@ a {
 }
 
 .trends_content {
-    display: block;
     width: 1192px;
     max-width: 1192px;
     margin : 0 64px;
@@ -254,4 +253,35 @@ a {
     width: 16px;
     height: 16px;
     margin: 0 0 0 4px;
+}
+
+.posts_container {
+    border-top: 1px solid #F2F2F2 ;
+    padding-top: 56px;
+}
+
+.posts_container > div.fx {
+    justify-content: center;
+}
+
+.posts_area {
+    margin: 0 64px;
+    max-width: 1192px;
+    width: 100%;
+}
+
+.posts_grid {
+    display: grid;
+    grid-template-columns: repeat(8,1fr) repeat(4, minmax(48px, 1fr));
+    grid-template-rows: 1fr;
+}
+
+.posts {
+    grid-column: 1 / span 7;
+    grid-row-start: 1;
+}
+
+.posts_tags {
+    grid-column: 9 / span 4;
+    grid-row-start: 1;
 }
