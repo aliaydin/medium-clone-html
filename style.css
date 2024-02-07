@@ -276,7 +276,7 @@ a {
     grid-template-rows: 1fr;
 }
 
-.posts {
+.posts_section {
     grid-column: 1 / span 7;
     grid-row-start: 1;
 }
@@ -284,4 +284,105 @@ a {
 .posts_tags {
     grid-column: 9 / span 4;
     grid-row-start: 1;
+}
+
+.posts {
+    padding: 12px 0;
+}
+
+.post {
+    margin-bottom: 48px;
+    width: 100%;
+}
+.post > div.fx {
+    justify-content: space-between;
+    align-items: center;
+}
+.post_content {
+    margin-right: 20px;
+    width: 100%;
+}
+.post_image {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.post_image > img {
+    vertical-align: middle;
+}
+
+.post_author_container {
+    padding-bottom: 8px;
+}
+.post_author_container > div.fx {
+    flex-direction: row;
+    align-items: center;
+}
+
+.post_author_image {
+    max-width: 20px;
+    max-height: 20px;
+}
+.post_author_image > img {
+    border-radius: 4px;
+}
+
+.post_author {
+    margin-left: 8px;
+}
+.post_author > a {
+    color: #242424;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    padding-right: 2px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.post_title > h2 {
+    color: #242424;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-overflow: ellipsis;
+    letter-spacing: 0;
+    overflow: hidden;
+    line-height: 24px;
+    max-height: 48px;
+    margin: 0;
+}
+.post_summary {
+    padding-top: 4px;
+}
+.post_summary > h3 {
+    color: #6B6B6B;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    max-height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.post_tools > div.fx {
+    padding-top: 8px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #6B6B6B;
+}
+
+.post_date_seperator {
+    padding: 0 6px;
+    height: 100%;
+    top: -1;
+    position: relative;
+}
+
+.post_save {
+    max-height: 25px;
 }
