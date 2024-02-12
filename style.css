@@ -37,6 +37,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: #ffc017;
+    transition: background-color 0.5s ease; 
     border-bottom: 1px solid #242424
 }
 

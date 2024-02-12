@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Medium Clone Html</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var originalBackgroundColor = window.getComputedStyle(document.querySelector('.menu')).backgroundColor; 
+    
+          window.addEventListener('scroll', function () {
+            var scrollPosition = window.scrollY; 
+    
+            if (scrollPosition >= 450) {
+              document.querySelector('.menu').style.backgroundColor = 'white'; 
+            } else {
+              document.querySelector('.menu').style.backgroundColor = originalBackgroundColor; 
+            }
+          });
+        });
+      </script>
+
 </head>
 <body>
 
