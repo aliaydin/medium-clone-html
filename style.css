@@ -499,6 +499,13 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.tags_area_mobile {
+    display: none;
+    border-top: 1px solid #F2F2F2;
+    padding-top: 24px;
+    margin: 0 48px;
+}
+
 @media (904px < width < 1079.98px) {
 
     .trend {
@@ -521,6 +528,10 @@ a {
 
     .tags_container {
         display: none;
+    }
+    .tags_area_mobile {
+        display: block;
+        
     }
 
     .posts_section {
@@ -560,6 +571,10 @@ a {
 
     .tags_container {
         display: none;
+    }
+    .tags_area_mobile {
+        display: block;
+        margin: 0 24px;
     }
 
     .posts_section {
@@ -623,6 +638,10 @@ a {
 
     .tags_container {
         display: none;
+    }
+    .tags_area_mobile {
+        display: block;
+        margin: 0 24px;
     }
 
     .posts_section {
