@@ -507,6 +507,7 @@ a {
 }
 
 .footer {
+    display: none;
     padding: 24px 0;
     background-color: #000000;
 }
@@ -555,6 +556,10 @@ a {
         
     }
 
+    .footer {
+        display: block;
+    }
+
     .posts_section {
         grid-column: 1 / span 12;
     }
@@ -596,6 +601,10 @@ a {
     .tags_area_mobile {
         display: block;
         margin: 0 24px;
+    }
+
+    .footer {
+        display: block;
     }
 
     .posts_section {
@@ -651,6 +660,9 @@ a {
         font-size: 70px;
     }
     
+    .footer {
+        display: block;
+    }
 
     .trend {
         flex-basis: 100%;
