@@ -510,21 +510,19 @@ a {
     display: none;
     padding: 24px 0;
     background-color: #000000;
-    color: #F2F2F2;
+    color: #ffffff;
 }
-.footer > div.fx {
+.footer div.fx {
     flex-wrap: wrap;
     flex-direction: row;
 }
 .footer > div {
     margin: 0 48px;
 }
-
-.footer > div > div.fx a {
+.footer a {
     display: block;
     margin-right: 26px;
     margin-bottom: 8px;
-    color: #6b6b6b;
     line-height: 20px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
