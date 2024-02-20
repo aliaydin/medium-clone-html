@@ -510,13 +510,17 @@ a {
     display: none;
     padding: 24px 0;
     background-color: #000000;
+    color: #F2F2F2;
 }
 .footer > div.fx {
     flex-wrap: wrap;
     flex-direction: row;
 }
+.footer > div {
+    margin: 0 48px;
+}
 
-.footer > div.fx a {
+.footer > div > div.fx a {
     display: block;
     margin-right: 26px;
     margin-bottom: 8px;
